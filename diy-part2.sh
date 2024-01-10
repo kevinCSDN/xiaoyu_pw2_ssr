@@ -23,9 +23,9 @@ sed -i 's/PATCHVER:=6.1/PATCHVER:=5.4/g' target/linux/x86/Makefile   # x86机型
 
 
 rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf feeds/luci/themes/luci-theme-netgear
+#rm -rf feeds/luci/themes/luci-theme-netgear
 #rm -rf feeds/luci/applications/luci-app-upnp
-rm -rf feeds/luci/applications/luci-app-wrtbwmon
+#rm -rf feeds/luci/applications/luci-app-wrtbwmon
 
 
 
